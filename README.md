@@ -23,7 +23,7 @@ This app show how create a location service in Flutter.
 
 If you have this error: `Plugin project :location_web not found. Please update settings.gradle.`, on android build after install `localtion` plugin, do this follows steps:
 
-- open the file `settings.gradle` and update the file with this code bellow:
+- open the [file](https://github.com/samuelematias/location_service/blob/main/android/settings.gradle) `settings.gradle` and update the file with this code bellow:
 
   ```gradle
 
@@ -43,9 +43,9 @@ If you have this error: `Plugin project :location_web not found. Please update s
 
   ```
 
-  > > Note: This will create a `.flutter-plugin` file which will have the plugin and its path.
+  > Note: This will create a `.flutter-plugin` file which will have the plugin and its path.
 
-  > > More about, check this [link](https://stackoverflow.com/questions/62348554/plugin-project-location-web-not-found-please-update-settings-gradle-how-do-i).
+  > More about, check this [link](https://stackoverflow.com/questions/62348554/plugin-project-location-web-not-found-please-update-settings-gradle-how-do-i).
 
 ## Tech Stack 👩🏾‍💻
 
