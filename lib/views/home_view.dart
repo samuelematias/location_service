@@ -8,9 +8,11 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var userLocation = Provider.of<UserLocation>(context);
-    return Center(
-      child: Text(
-          'Location: Lat${userLocation?.latitude}, Long: ${userLocation?.longitude}'),
+    return Scaffold(
+      body: Center(
+        child: SelectableText(
+            'Location: Lat${userLocation?.latitude}, Long: ${userLocation?.longitude}'),
+      ),
     );
   }
 }
